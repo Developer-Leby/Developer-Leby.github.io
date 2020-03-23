@@ -4702,16 +4702,28 @@ Vertical Timeline - by CodyHouse.co
     margin-top: -12px;
 }
 
-.cd-timeline__img.cd-timeline__img--picture {
-    background: #2ec551;
+.cd-timeline__img.cd-timeline__img--general {
+    background: #6D6D6D;
 }
 
-.cd-timeline__img.cd-timeline__img--movie {
-    background: #ef172c;
+.cd-timeline__img.cd-timeline__img--license {
+    background: #F2C12E;
 }
 
-.cd-timeline__img.cd-timeline__img--location {
-    background: #ffc108;
+.cd-timeline__img.cd-timeline__img--dev {
+    background: #59D8E6;
+}
+
+.cd-timeline__img.cd-timeline__img--job {
+    background: #85DB18;
+}
+
+.cd-timeline__img.cd-timeline__img--study {
+    background: #FF8C00;
+}
+
+.cd-timeline__img.cd-timeline__img--award {
+    background: #7B52AB;
 }
 
 @media only screen and (min-width:1170px) {
