@@ -15,8 +15,6 @@
     <link rel="stylesheet" href="assets/vendor/fonts/flag-icon-css/flag-icon.min.css">
     <!--<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/earlyaccess/notosanskr.css">-->
     <title>Concept - Bootstrap 4 Admin Dashboard Template</title>
-
-    <link rel="import" href="include/nav.html">
 </head>
 <!--
 <style>
@@ -631,10 +629,8 @@ body        { font: 24px/30px 'Noto Sans CJK KR', Noto Sans KR, sans-serif }
     <script src="assets/libs/js/dashboard-ecommerce.js"></script>
 
     <script type="text/javascript">
-    //페이지가 로드되면 실행한다.
     $(document).ready( function() {
-    	$("#nav").load("include/nav.html");
-    	//~이렇게 한줄만 해주면 알아서 contents에 testContents.html파일을 넣어 준다.
+      $("#nav").load("include/nav.html");
     });
     </script>
 
