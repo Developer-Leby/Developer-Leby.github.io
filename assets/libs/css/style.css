@@ -4707,23 +4707,23 @@ Vertical Timeline - by CodyHouse.co
 }
 
 .cd-timeline__img.cd-timeline__img--license {
-    background: #F2C12E;
+    background: #FFCC00;
 }
 
 .cd-timeline__img.cd-timeline__img--dev {
-    background: #5969ff;
+    background: #45BF55;
 }
 
 .cd-timeline__img.cd-timeline__img--job {
-    background: #85DB18;
+    background: #3498DB;
 }
 
 .cd-timeline__img.cd-timeline__img--study {
-    background: #FF8C00;
+    background: #3498DB;
 }
 
 .cd-timeline__img.cd-timeline__img--award {
-    background: #7B52AB;
+    background: #E84D5B;
 }
 
 @media only screen and (min-width:1170px) {
