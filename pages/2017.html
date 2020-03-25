@@ -11,6 +11,7 @@
     <link href="../assets/vendor/fonts/circular-std/style.css" rel="stylesheet">
     <link rel="stylesheet" href="../assets/libs/css/style.css">
     <link rel="stylesheet" href="../assets/vendor/fonts/fontawesome/css/fontawesome-all.css">
+    <link rel="stylesheet" href="../assets/vendor/swiper/css/swiper.min.css">
 </head>
 
 <body>
@@ -118,7 +119,7 @@
                                     <span class="badge-dot badge-success ml-1 mr-2"></span>(주) 솔루비스
                                     <span class="badge-dot badge-warning ml-1 mr-2"></span>알리안츠생명
                                     <p></p>
-                                    <a href="#0" class="btn btn-dark btn-block">자세히 보기</a>
+                                    <a href="#0" class="btn btn-dark btn-block" data-toggle="modal" data-target="#allianzModal">자세히 보기</a>
                                 </div>
                                 <!-- cd-timeline__content -->
                             </div>
@@ -146,7 +147,7 @@
                                     <span class="badge-dot badge-success ml-1 mr-2"></span>(주) 솔루비스
                                     <span class="badge-dot badge-warning ml-1 mr-2"></span>ABL생명
                                     <p></p>
-                                    <a href="#0" class="btn btn-dark btn-block">자세히 보기</a>
+                                    <a href="#0" class="btn btn-dark btn-block" data-toggle="modal" data-target="#ablModal">자세히 보기</a>
                                 </div>
                                 <!-- cd-timeline__content -->
                             </div>
@@ -186,9 +187,10 @@
                                     <span class="badge badge-success">Swift</span>
                                     <span class="badge badge-light">Core Data</span>
                                     <span class="badge badge-light">Firebase Database</span>
+                                    <span class="badge badge-light">AES 256</span>
                                     <span class="badge badge-light">Google Ads</span>
                                     <p></p>
-                                    <a href="#0" class="btn btn-dark btn-block">자세히 보기</a>
+                                    <a href="#0" class="btn btn-dark btn-block" data-toggle="modal" data-target="#loginBoxModal">자세히 보기</a>
                                 </div>
                                 <!-- cd-timeline__content -->
                             </div>
@@ -210,7 +212,7 @@
                                     <span class="badge badge-light">KeyChain</span>
                                     <span class="badge badge-light">Apple Reject</span>
                                     <p></p>
-                                    <a href="#0" class="btn btn-dark btn-block">자세히 보기</a>
+                                    <a href="#0" class="btn btn-dark btn-block" data-toggle="modal" data-target="#downloadBoxModal">자세히 보기</a>
                                 </div>
                                 <!-- cd-timeline__content -->
                             </div>
@@ -232,7 +234,7 @@
                                     <span class="badge badge-light">Core Image Filter</span>
                                     <span class="badge badge-light">Image Processing</span>
                                     <p></p>
-                                    <a href="#0" class="btn btn-dark btn-block">자세히 보기</a>
+                                    <a href="#0" class="btn btn-dark btn-block" data-toggle="modal" data-target="#polaroidDiaryModal">자세히 보기</a>
                                 </div>
                                 <!-- cd-timeline__content -->
                             </div>
@@ -254,9 +256,9 @@
                                     <span class="badge badge-light">Event Handler</span>
                                     <p></p>
                                     <span class="badge-dot badge-success ml-1 mr-2"></span>(주) 솔루비스
-                                    <span class="badge-dot badge-warning ml-1 mr-2"></span>SKT Telecom
+                                    <span class="badge-dot badge-warning ml-1 mr-2"></span>BS렌탈
                                     <p></p>
-                                    <a href="#0" class="btn btn-dark btn-block">자세히 보기</a>
+                                    <a href="#0" class="btn btn-dark btn-block" data-toggle="modal" data-target="#mitelSoftphoneModal">자세히 보기</a>
                                 </div>
                                 <!-- cd-timeline__content -->
                             </div>
@@ -279,18 +281,651 @@
    <!-- ============================================================== -->
     <!-- end main wrapper -->
     <!-- ============================================================== -->
+
+    <!-- Modal -->
+    <div class="modal fade" id="allianzModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+
+                <div class="modal-body" style="position: relative;">
+                    <div class="alert alert-success alert-dismissible fade show" role="alert">
+                        <b>비대면 실명 인증 서비스 구축</b>
+                        <a href="#" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </a>
+                    </div>
+                    <span class="ml-2"><span class="badge-dot badge-success mr-2"></span><b class="text-dark">설명</b></span>
+                    <h4><b></b></h4>
+                    <p class="ml-4 mr-4">비대면 보험 대출하는 고객에 대해 주민등록증과 실시간 모바일 영상을 대조 프로그램과 신분증 진위 여부를 확인 프로그램을 개발하였습니다.</p>
+                    <span class="ml-2"><span class="badge-dot badge-success mr-2"></span><b class="text-dark">개발 기간</b></span>
+                    <h4><b></b></h4>
+                    <p class="ml-4 mr-4">2017년 2월 ~ 2017년 5월</p>
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <span class="ml-2"><span class="badge-dot badge-success mr-2"></span><b class="text-dark">개발 언어</b></span>
+                            <h4><b></b></h4>
+                            <p class="ml-4">MFC</p>
+                        </div>
+                        <div class="col-md-6">
+                            <span class="ml-2"><span class="badge-dot badge-success mr-2"></span><b class="text-dark">개발 툴</b></span>
+                            <h4><b></b></h4>
+                            <p class="ml-4">Visual Studio 2010</p>
+                        </div>
+                    </div>
+                    <p></p>
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <span class="ml-2"><span class="badge-dot badge-success mr-2"></span><b class="text-dark">실행 환경</b></span>
+                            <h4><b></b></h4>
+                            <p class="ml-4">Windows 7</p>
+                        </div>
+                        <div class="col-md-6">
+                            <span class="ml-2"><span class="badge-dot badge-success mr-2"></span><b class="text-dark">서버 환경</b></span>
+                            <h4><b></b></h4>
+                            <p class="ml-4">-</p>
+                        </div>
+                    </div>
+                    <p></p>
+
+                    <span class="ml-2"><span class="badge-dot badge-success mr-2"></span><b class="text-dark">특징</b></span>
+                    <h4><b></b></h4>
+                    <p class="ml-4">RTP - UDP 데이터 프로토콜에 RTP 프로토콜 Header를 적용<br/>
+                        FFmpeg - Video Codec encoding, decoding 처리<br/>
+                        Json Parser - Restful API 응답 json 처리
+                    </p>
+
+                    <!-- Swiper -->
+                    <div class="swiper-container swiper1 border">
+                        <div class="swiper-wrapper">
+                          <div class="swiper-slide">
+                              <a target="_blank" href="../projects/allianz/1.png">
+                                  <img src="../projects/allianz/1.png" alt="slide" />
+                              </a>
+                          </div>
+                          <div class="swiper-slide">
+                              <a target="_blank" href="../projects/allianz/2.png">
+                                  <img src="../projects/allianz/2.png" alt="slide" />
+                              </a>
+                          </div>
+                        </div>
+                        <!-- Add Pagination -->
+                        <div class="swiper-pagination"></div>
+                        <!-- Add Arrows -->
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="ablModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+
+                <div class="modal-body" style="position: relative;">
+                    <div class="alert alert-success alert-dismissible fade show" role="alert">
+                        <b>화상 상담 서비스 구축</b>
+                        <a href="#" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </a>
+                    </div>
+                    <span class="ml-2"><span class="badge-dot badge-success mr-2"></span><b class="text-dark">설명</b></span>
+                    <h4><b></b></h4>
+                    <p class="ml-4 mr-4">보험 대출하는 고객에 대해 상담원과 화상 상담할 수 있는 프로그램을 개발하였습니다.</p>
+                    <span class="ml-2"><span class="badge-dot badge-success mr-2"></span><b class="text-dark">개발 기간</b></span>
+                    <h4><b></b></h4>
+                    <p class="ml-4 mr-4">2017년 5월 ~ 2017년 9월</p>
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <span class="ml-2"><span class="badge-dot badge-success mr-2"></span><b class="text-dark">개발 언어</b></span>
+                            <h4><b></b></h4>
+                            <p class="ml-4">MFC</p>
+                        </div>
+                        <div class="col-md-6">
+                            <span class="ml-2"><span class="badge-dot badge-success mr-2"></span><b class="text-dark">개발 툴</b></span>
+                            <h4><b></b></h4>
+                            <p class="ml-4">Visual Studio 2010</p>
+                        </div>
+                    </div>
+                    <p></p>
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <span class="ml-2"><span class="badge-dot badge-success mr-2"></span><b class="text-dark">실행 환경</b></span>
+                            <h4><b></b></h4>
+                            <p class="ml-4">Windows 7</p>
+                        </div>
+                        <div class="col-md-6">
+                            <span class="ml-2"><span class="badge-dot badge-success mr-2"></span><b class="text-dark">서버 환경</b></span>
+                            <h4><b></b></h4>
+                            <p class="ml-4">-</p>
+                        </div>
+                    </div>
+                    <p></p>
+
+                    <span class="ml-2"><span class="badge-dot badge-success mr-2"></span><b class="text-dark">특징</b></span>
+                    <h4><b></b></h4>
+                    <p class="ml-4">RTP - UDP 데이터 프로토콜에 RTP 프로토콜 Header를 적용<br/>
+                        FFmpeg - Video Codec encoding, decoding 처리<br/>
+                        Json Parser - Restful API 응답 json 처리
+                    </p>
+
+                    <!-- Swiper -->
+                    <div class="swiper-container swiper2 border">
+                        <div class="swiper-wrapper">
+                          <div class="swiper-slide">
+                              <a target="_blank" href="../projects/abl/1.png">
+                                  <img src="../projects/abl/1.png" alt="slide" />
+                              </a>
+                          </div>
+                          <div class="swiper-slide">
+                              <a target="_blank" href="../projects/abl/2.png">
+                                  <img src="../projects/abl/2.png" alt="slide" />
+                              </a>
+                          </div>
+                          <div class="swiper-slide">
+                              <a target="_blank" href="../projects/abl/3.png">
+                                  <img src="../projects/abl/3.png" alt="slide" />
+                              </a>
+                          </div>
+                          <div class="swiper-slide">
+                              <a target="_blank" href="../projects/abl/4.png">
+                                  <img src="../projects/abl/4.png" alt="slide" />
+                              </a>
+                          </div>
+                          <div class="swiper-slide">
+                              <a target="_blank" href="../projects/abl/5.png">
+                                  <img src="../projects/abl/5.png" alt="slide" />
+                              </a>
+                          </div>
+                          <div class="swiper-slide">
+                              <a target="_blank" href="../projects/abl/6.png">
+                                  <img src="../projects/abl/6.png" alt="slide" />
+                              </a>
+                          </div>
+                          <div class="swiper-slide">
+                              <a target="_blank" href="../projects/abl/7.png">
+                                  <img src="../projects/abl/7.png" alt="slide" />
+                              </a>
+                          </div>
+                        </div>
+                        <!-- Add Pagination -->
+                        <div class="swiper-pagination"></div>
+                        <!-- Add Arrows -->
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="loginBoxModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+
+                <div class="modal-body" style="position: relative;">
+                    <div class="alert alert-success alert-dismissible fade show" role="alert">
+                        <b>로그인 박스 iOS 앱 개발</b>
+                        <a href="#" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </a>
+                    </div>
+                    <span class="ml-2"><span class="badge-dot badge-success mr-2"></span><b class="text-dark">설명</b></span>
+                    <h4><b></b></h4>
+                    <p class="ml-4 mr-4">아이디 비밀번호를 저장 관리하는 iOS 어플리케이션입니다.</p>
+                    <span class="ml-2"><span class="badge-dot badge-success mr-2"></span><b class="text-dark">개발 기간</b></span>
+                    <h4><b></b></h4>
+                    <p class="ml-4 mr-4">2017년 8월 ~ 2017년 9월</p>
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <span class="ml-2"><span class="badge-dot badge-success mr-2"></span><b class="text-dark">개발 언어</b></span>
+                            <h4><b></b></h4>
+                            <p class="ml-4">Swift</p>
+                        </div>
+                        <div class="col-md-6">
+                            <span class="ml-2"><span class="badge-dot badge-success mr-2"></span><b class="text-dark">개발 툴</b></span>
+                            <h4><b></b></h4>
+                            <p class="ml-4">Xcode</p>
+                        </div>
+                    </div>
+                    <p></p>
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <span class="ml-2"><span class="badge-dot badge-success mr-2"></span><b class="text-dark">실행 환경</b></span>
+                            <h4><b></b></h4>
+                            <p class="ml-4">iPhone</p>
+                        </div>
+                        <div class="col-md-6">
+                            <span class="ml-2"><span class="badge-dot badge-success mr-2"></span><b class="text-dark">서버 환경</b></span>
+                            <h4><b></b></h4>
+                            <p class="ml-4">-</p>
+                        </div>
+                    </div>
+                    <p></p>
+
+                    <span class="ml-2"><span class="badge-dot badge-success mr-2"></span><b class="text-dark">특징</b></span>
+                    <h4><b></b></h4>
+                    <p class="ml-4">Core Data - 기본으로 제공하는 데이터베이스 사용<br/>
+                        Firebase Database - Google Firebase에 데이터 백업 & 복원<br/>
+                        AES 256 - 아이디, 비밀번호, 기본 정보들 암호화 저장<br/>
+                        Google Ads - 구글 애드센스 광고 삽입
+                    </p>
+
+                    <!-- Swiper -->
+                    <div class="swiper-container swiper2 border">
+                        <div class="swiper-wrapper">
+                          <div class="swiper-slide">
+                              <a target="_blank" href="../projects/loginBox/1.png">
+                                  <img src="../projects/loginBox/1.png" alt="slide" />
+                              </a>
+                          </div>
+                          <div class="swiper-slide">
+                              <a target="_blank" href="../projects/loginBox/2.png">
+                                  <img src="../projects/loginBox/2.png" alt="slide" />
+                              </a>
+                          </div>
+                          <div class="swiper-slide">
+                              <a target="_blank" href="../projects/loginBox/3.png">
+                                  <img src="../projects/loginBox/3.png" alt="slide" />
+                              </a>
+                          </div>
+                          <div class="swiper-slide">
+                              <a target="_blank" href="../projects/loginBox/4.png">
+                                  <img src="../projects/loginBox/4.png" alt="slide" />
+                              </a>
+                          </div>
+                          <div class="swiper-slide">
+                              <a target="_blank" href="../projects/loginBox/5.png">
+                                  <img src="../projects/loginBox/5.png" alt="slide" />
+                              </a>
+                          </div>
+                        </div>
+                        <!-- Add Pagination -->
+                        <div class="swiper-pagination"></div>
+                        <!-- Add Arrows -->
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="downloadBoxModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+
+                <div class="modal-body" style="position: relative;">
+                    <div class="alert alert-success alert-dismissible fade show" role="alert">
+                        <b>다운로드 박스 iOS 앱 개발</b>
+                        <a href="#" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </a>
+                    </div>
+                    <span class="ml-2"><span class="badge-dot badge-success mr-2"></span><b class="text-dark">설명</b></span>
+                    <h4><b></b></h4>
+                    <p class="ml-4 mr-4">유튜브, 페이스북, 인스타그램의 컨텐츠 URL을 복사 & 붙여넣기하여 컨텐츠를 다운로드하는 iOS 어플리케이션입니다.</p>
+                    <span class="ml-2"><span class="badge-dot badge-success mr-2"></span><b class="text-dark">개발 기간</b></span>
+                    <h4><b></b></h4>
+                    <p class="ml-4 mr-4">2017년 10월 ~ 2017년 10월</p>
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <span class="ml-2"><span class="badge-dot badge-success mr-2"></span><b class="text-dark">개발 언어</b></span>
+                            <h4><b></b></h4>
+                            <p class="ml-4">Swift</p>
+                        </div>
+                        <div class="col-md-6">
+                            <span class="ml-2"><span class="badge-dot badge-success mr-2"></span><b class="text-dark">개발 툴</b></span>
+                            <h4><b></b></h4>
+                            <p class="ml-4">Xcode</p>
+                        </div>
+                    </div>
+                    <p></p>
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <span class="ml-2"><span class="badge-dot badge-success mr-2"></span><b class="text-dark">실행 환경</b></span>
+                            <h4><b></b></h4>
+                            <p class="ml-4">iPhone</p>
+                        </div>
+                        <div class="col-md-6">
+                            <span class="ml-2"><span class="badge-dot badge-success mr-2"></span><b class="text-dark">서버 환경</b></span>
+                            <h4><b></b></h4>
+                            <p class="ml-4">-</p>
+                        </div>
+                    </div>
+                    <p></p>
+
+                    <span class="ml-2"><span class="badge-dot badge-success mr-2"></span><b class="text-dark">특징</b></span>
+                    <h4><b></b></h4>
+                    <p class="ml-4">URL Session - URL에 접근하여 유효한 컨텐츠 확인 처리<br/>
+                        KeyChain - KeyChain에 데이터를 삽입하여 앱을 삭제했다가 다시 설치해도 기존 데이터 확인<br/>
+                        Apple Reject - 타 컨텐츠 다운로드 불가 애플 가이드라인 심사 리젝
+                    </p>
+
+                    <!-- Swiper -->
+                    <div class="swiper-container swiper2 border">
+                        <div class="swiper-wrapper">
+                          <div class="swiper-slide">
+                              <a target="_blank" href="../projects/downloadBox/1.jpg">
+                                  <img src="../projects/downloadBox/1.jpg" alt="slide" />
+                              </a>
+                          </div>
+                          <div class="swiper-slide">
+                              <a target="_blank" href="../projects/downloadBox/2.jpg">
+                                  <img src="../projects/downloadBox/2.jpg" alt="slide" />
+                              </a>
+                          </div>
+                          <div class="swiper-slide">
+                              <a target="_blank" href="../projects/downloadBox/3.jpg">
+                                  <img src="../projects/downloadBox/3.jpg" alt="slide" />
+                              </a>
+                          </div>
+                        </div>
+                        <!-- Add Pagination -->
+                        <div class="swiper-pagination"></div>
+                        <!-- Add Arrows -->
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="polaroidDiaryModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+
+                <div class="modal-body" style="position: relative;">
+                    <div class="alert alert-success alert-dismissible fade show" role="alert">
+                        <b>폴라로이드 일기 iOS 앱 개발</b>
+                        <a href="#" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </a>
+                    </div>
+                    <span class="ml-2"><span class="badge-dot badge-success mr-2"></span><b class="text-dark">설명</b></span>
+                    <h4><b></b></h4>
+                    <p class="ml-4 mr-4">플라로이드 형태로 하루의 일기를 작성하는 어플리케이션입니다.</p>
+                    <span class="ml-2"><span class="badge-dot badge-success mr-2"></span><b class="text-dark">개발 기간</b></span>
+                    <h4><b></b></h4>
+                    <p class="ml-4 mr-4">2017년 10월 ~ 2017년 11월</p>
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <span class="ml-2"><span class="badge-dot badge-success mr-2"></span><b class="text-dark">개발 언어</b></span>
+                            <h4><b></b></h4>
+                            <p class="ml-4">Swift</p>
+                        </div>
+                        <div class="col-md-6">
+                            <span class="ml-2"><span class="badge-dot badge-success mr-2"></span><b class="text-dark">개발 툴</b></span>
+                            <h4><b></b></h4>
+                            <p class="ml-4">Xcode</p>
+                        </div>
+                    </div>
+                    <p></p>
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <span class="ml-2"><span class="badge-dot badge-success mr-2"></span><b class="text-dark">실행 환경</b></span>
+                            <h4><b></b></h4>
+                            <p class="ml-4">iPhone</p>
+                        </div>
+                        <div class="col-md-6">
+                            <span class="ml-2"><span class="badge-dot badge-success mr-2"></span><b class="text-dark">서버 환경</b></span>
+                            <h4><b></b></h4>
+                            <p class="ml-4">-</p>
+                        </div>
+                    </div>
+                    <p></p>
+
+                    <span class="ml-2"><span class="badge-dot badge-success mr-2"></span><b class="text-dark">특징</b></span>
+                    <h4><b></b></h4>
+                    <p class="ml-4">Realm - 오픈소스 객체 데이터베이스 사용<br/>
+                        Core Image Filter - 애플에서 제공하는 기본 필터 기능 사용
+                    </p>
+
+                    <!-- Swiper -->
+                    <div class="swiper-container swiper2 border">
+                        <div class="swiper-wrapper">
+                          <div class="swiper-slide">
+                              <a target="_blank" href="../projects/polaroidDiary/1.jpg">
+                                  <img src="../projects/polaroidDiary/1.jpg" alt="slide" />
+                              </a>
+                          </div>
+                          <div class="swiper-slide">
+                              <a target="_blank" href="../projects/polaroidDiary/2.jpg">
+                                  <img src="../projects/polaroidDiary/2.jpg" alt="slide" />
+                              </a>
+                          </div>
+                          <div class="swiper-slide">
+                              <a target="_blank" href="../projects/polaroidDiary/3.jpg">
+                                  <img src="../projects/polaroidDiary/3.jpg" alt="slide" />
+                              </a>
+                          </div>
+                          <div class="swiper-slide">
+                              <a target="_blank" href="../projects/polaroidDiary/4.jpg">
+                                  <img src="../projects/polaroidDiary/4.jpg" alt="slide" />
+                              </a>
+                          </div>
+                        </div>
+                        <!-- Add Pagination -->
+                        <div class="swiper-pagination"></div>
+                        <!-- Add Arrows -->
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="mitelSoftphoneModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+
+                <div class="modal-body" style="position: relative;">
+                    <div class="alert alert-success alert-dismissible fade show" role="alert">
+                        <b>Mitel 상담원 소프트폰 프로그램 개발</b>
+                        <a href="#" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </a>
+                    </div>
+                    <span class="ml-2"><span class="badge-dot badge-success mr-2"></span><b class="text-dark">설명</b></span>
+                    <h4><b></b></h4>
+                    <p class="ml-4 mr-4">연결(연결해제), 내선등록(등록해제), 로그인(로그아웃), 전화걸기, 전화받기, 전화끊기, 당겨받기, 호전환, 3자통화, 보류, 휴식 등의 기능 버튼을 사용하여 상담원 전화기를 제어할 수 있습니다.</p>
+                    <span class="ml-2"><span class="badge-dot badge-success mr-2"></span><b class="text-dark">개발 기간</b></span>
+                    <h4><b></b></h4>
+                    <p class="ml-4 mr-4">2017년 11월 ~ 2017년 12월</p>
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <span class="ml-2"><span class="badge-dot badge-success mr-2"></span><b class="text-dark">개발 언어</b></span>
+                            <h4><b></b></h4>
+                            <p class="ml-4">PowerBuilder Script</p>
+                        </div>
+                        <div class="col-md-6">
+                            <span class="ml-2"><span class="badge-dot badge-success mr-2"></span><b class="text-dark">개발 툴</b></span>
+                            <h4><b></b></h4>
+                            <p class="ml-4">PowerBuilder 12.5</p>
+                        </div>
+                    </div>
+                    <p></p>
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <span class="ml-2"><span class="badge-dot badge-success mr-2"></span><b class="text-dark">실행 환경</b></span>
+                            <h4><b></b></h4>
+                            <p class="ml-4">Windows 7</p>
+                        </div>
+                        <div class="col-md-6">
+                            <span class="ml-2"><span class="badge-dot badge-success mr-2"></span><b class="text-dark">서버 환경</b></span>
+                            <h4><b></b></h4>
+                            <p class="ml-4">-</p>
+                        </div>
+                    </div>
+                    <p></p>
+
+                    <span class="ml-2"><span class="badge-dot badge-success mr-2"></span><b class="text-dark">특징</b></span>
+                    <h4><b></b></h4>
+                    <p class="ml-4">import C++ dll - Mitel SDK 사용
+                    </p>
+
+                    <!-- Swiper -->
+                    <div class="swiper-container swiper2 border">
+                        <div class="swiper-wrapper">
+                          <div class="swiper-slide">
+                              <a target="_blank" href="../projects/mitelSoftphone/1.png">
+                                  <img src="../projects/mitelSoftphone/1.png" alt="slide" />
+                              </a>
+                          </div>
+                          <div class="swiper-slide">
+                              <a target="_blank" href="../projects/mitelSoftphone/2.png">
+                                  <img src="../projects/mitelSoftphone/2.png" alt="slide" />
+                              </a>
+                          </div>
+                          <div class="swiper-slide">
+                              <a target="_blank" href="../projects/mitelSoftphone/3.png">
+                                  <img src="../projects/mitelSoftphone/3.png" alt="slide" />
+                              </a>
+                          </div>
+                        </div>
+                        <!-- Add Pagination -->
+                        <div class="swiper-pagination"></div>
+                        <!-- Add Arrows -->
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- Optional JavaScript -->
     <script src="../assets/vendor/jquery/jquery-3.3.1.min.js"></script>
     <script src="../assets/vendor/bootstrap/js/bootstrap.bundle.js"></script>
     <script src="../assets/vendor/slimscroll/jquery.slimscroll.js"></script>
     <script src="../assets/libs/js/main-js.js"></script>
     <script src="../assets/vendor/timeline/js/main.js"></script>
+    <script src="../assets/vendor/swiper/js/swiper.min.js"></script>
 
     <script type="text/javascript">
     $(document).ready( function() {
-      $("#top").load("../include/top.html");
-      $("#nav").load("../include/nav.html");
+        $("#top").load("../include/top.html");
+        $("#nav").load("../include/nav.html");
     });
+
+    $(document).ready( function() {
+        $(".modal").on('show.bs.modal', function() {
+            setTimeout(function() {
+                var swiper1 = new Swiper('.swiper1', {
+                    navigation: {
+                        nextEl: '.swiper-button-next',
+                        prevEl: '.swiper-button-prev',
+                    },
+                    pagination: {
+                        el: '.swiper-pagination',
+                    },
+                    slidesPerView: 1,
+                    spaceBetween: 30,
+                    loop: true,
+                });
+
+                var swiper2 = new Swiper('.swiper2', {
+                    navigation: {
+                        nextEl: '.swiper-button-next',
+                        prevEl: '.swiper-button-prev',
+                    },
+                    pagination: {
+                        el: '.swiper-pagination',
+                    },
+                    slidesPerView: 1,
+                    spaceBetween: 30,
+                    loop: true,
+                });
+
+                var swiper3 = new Swiper('.swiper3', {
+                    navigation: {
+                        nextEl: '.swiper-button-next',
+                        prevEl: '.swiper-button-prev',
+                    },
+                    pagination: {
+                        el: '.swiper-pagination',
+                    },
+                    slidesPerView: 1,
+                    spaceBetween: 30,
+                    loop: true,
+                });
+
+                var swiper4 = new Swiper('.swiper4', {
+                    navigation: {
+                        nextEl: '.swiper-button-next',
+                        prevEl: '.swiper-button-prev',
+                    },
+                    pagination: {
+                        el: '.swiper-pagination',
+                    },
+                    slidesPerView: 1,
+                    spaceBetween: 30,
+                    loop: true,
+                });
+
+                var swiper5 = new Swiper('.swiper5', {
+                    navigation: {
+                        nextEl: '.swiper-button-next',
+                        prevEl: '.swiper-button-prev',
+                    },
+                    pagination: {
+                        el: '.swiper-pagination',
+                    },
+                    slidesPerView: 1,
+                    spaceBetween: 30,
+                    loop: true,
+                });
+
+                var swiper6 = new Swiper('.swiper6', {
+                    navigation: {
+                        nextEl: '.swiper-button-next',
+                        prevEl: '.swiper-button-prev',
+                    },
+                    pagination: {
+                        el: '.swiper-pagination',
+                    },
+                    slidesPerView: 1,
+                    spaceBetween: 30,
+                    loop: true,
+                });
+
+            }, 50);
+        });
+    });
+
+    var imgArray = $.map($("img"), function(el){ return el; });
+    for (var i = 0; i < imgArray.length; i++) {
+        if (imgArray[i].alt=="slide" && imgArray[i].height > 298) {
+            imgArray[i].style.setProperty ("width", "auto");
+            imgArray[i].style.setProperty ("height", "298px");
+        }
+    }
     </script>
 
 </body>

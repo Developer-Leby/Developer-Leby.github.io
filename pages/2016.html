@@ -11,6 +11,7 @@
     <link href="../assets/vendor/fonts/circular-std/style.css" rel="stylesheet">
     <link rel="stylesheet" href="../assets/libs/css/style.css">
     <link rel="stylesheet" href="../assets/vendor/fonts/fontawesome/css/fontawesome-all.css">
+    <link rel="stylesheet" href="../assets/vendor/swiper/css/swiper.min.css">
 </head>
 
 <body>
@@ -154,7 +155,7 @@
                                     <span class="badge-dot badge-success ml-1 mr-2"></span>(주) 솔루비스
                                     <span class="badge-dot badge-warning ml-1 mr-2"></span>경남은행
                                     <p></p>
-                                    <a href="#0" class="btn btn-dark btn-block">자세히 보기</a>
+                                    <a href="#0" class="btn btn-dark btn-block" data-toggle="modal" data-target="#knbankModal">자세히 보기</a>
                                 </div>
                                 <!-- cd-timeline__content -->
                             </div>
@@ -171,8 +172,8 @@
                                         <b>히든락 원격 도어락 제어 앱 & 웹 페이지 개발</b>
                                     </div>
                                     <p>2016년 5월 ~ 2016년 10월</p>
-                                    <span class="badge badge-success">Java (Android, Spring)</span>
-                                    <span class="badge badge-success">Swift (iOS)</span>
+                                    <span class="badge badge-success">Java</span>
+                                    <span class="badge badge-success">Swift</span>
                                     <span class="badge badge-success">MFC</span>
                                     <span class="badge badge-light">Windows 7</span>
                                     <span class="badge badge-light">MariaDB</span>
@@ -181,7 +182,7 @@
                                     <span class="badge badge-light">MyBatis</span>
                                     <span class="badge badge-light">Restful API</span>
                                     <p></p>
-                                    <a href="#0" class="btn btn-dark btn-block">자세히 보기</a>
+                                    <a href="#0" class="btn btn-dark btn-block" data-toggle="modal" data-target="#hiddenLockModal">자세히 보기</a>
                                 </div>
                                 <!-- cd-timeline__content -->
                             </div>
@@ -335,18 +336,312 @@
    <!-- ============================================================== -->
     <!-- end main wrapper -->
     <!-- ============================================================== -->
+    <!-- Modal -->
+    <div class="modal fade" id="knbankModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+
+                <div class="modal-body">
+                    <div class="alert alert-success alert-dismissible fade show" role="alert">
+                        <b>비대면 실명인증 상담 서비스 구축</b>
+                        <a href="#" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </a>
+                    </div>
+
+                    <span class="ml-2"><span class="badge-dot badge-success mr-2"></span><b class="text-dark">설명</b></span>
+                    <h4><b></b></h4>
+                    <p class="ml-4 mr-4">비대면 계좌 개설을 하는 고객에 대해 주민등록증과 실시간 모바일 영상을 대조하여 인증하는 프로그램입니다.</p>
+
+                    <span class="ml-2"><span class="badge-dot badge-success mr-2"></span><b class="text-dark">개발 기간</b></span>
+                    <h4><b></b></h4>
+                    <p class="ml-4">2016년 3월 ~ 2016년 7월</p>
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <span class="ml-2"><span class="badge-dot badge-success mr-2"></span><b class="text-dark">개발 언어</b></span>
+                            <h4><b></b></h4>
+                            <p class="ml-4">C++, MFC</p>
+                        </div>
+                        <div class="col-md-6">
+                            <span class="ml-2"><span class="badge-dot badge-success mr-2"></span><b class="text-dark">개발 툴</b></span>
+                            <h4><b></b></h4>
+                            <p class="ml-4">Visual Studio 2010</p>
+                        </div>
+                    </div>
+                    <p></p>
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <span class="ml-2"><span class="badge-dot badge-success mr-2"></span><b class="text-dark">실행 환경</b></span>
+                            <h4><b></b></h4>
+                            <p class="ml-4">Windows 7</p>
+                        </div>
+                        <div class="col-md-6">
+                            <span class="ml-2"><span class="badge-dot badge-success mr-2"></span><b class="text-dark">서버 환경</b></span>
+                            <h4><b></b></h4>
+                            <p class="ml-4">HP Aix Unix</p>
+                        </div>
+                    </div>
+                    <p></p>
+
+                    <span class="ml-2"><span class="badge-dot badge-success mr-2"></span><b class="text-dark">특징</b></span>
+                    <h4><b></b></h4>
+                    <p class="ml-4">RTP - UDP 데이터 프로토콜에 RTP 프로토콜 Header를 적용<br/>
+                        FFmpeg - Video Codec encoding, decoding 처리<br/>
+                        Json Parser - Restful API 응답 json 처리
+                    </p>
+
+                    <!-- Swiper -->
+                    <div class="swiper-container swiper1 border">
+                        <div class="swiper-wrapper">
+                          <div class="swiper-slide">
+                              <a target="_blank" href="../projects/knbank/1.png">
+                                  <img src="../projects/knbank/1.png" alt="slide" />
+                              </a>
+                          </div>
+                          <div class="swiper-slide">
+                              <a target="_blank" href="../projects/knbank/2.png">
+                                  <img src="../projects/knbank/2.png" alt="slide" />
+                              </a>
+                          </div>
+                          <div class="swiper-slide">
+                              <a target="_blank" href="../projects/knbank/3.png">
+                                  <img src="../projects/knbank/3.png" alt="slide" />
+                              </a>
+                          </div>
+                          <div class="swiper-slide">
+                              <a target="_blank" href="../projects/knbank/4.png">
+                                  <img src="../projects/knbank/4.png" alt="slide" />
+                              </a>
+                          </div>
+                          <div class="swiper-slide">
+                              <a target="_blank" href="../projects/knbank/5.png">
+                                  <img src="../projects/knbank/5.png" alt="slide" />
+                              </a>
+                          </div>
+                        </div>
+                        <!-- Add Pagination -->
+                        <div class="swiper-pagination"></div>
+                        <!-- Add Arrows -->
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="hiddenLockModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+
+                <div class="modal-body">
+                    <div class="alert alert-success alert-dismissible fade show" role="alert">
+                        <b>히든락 원격 도어락 제어 앱 & 웹 페이지 개발</b>
+                        <a href="#" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </a>
+                    </div>
+
+                    <span class="ml-2"><span class="badge-dot badge-success mr-2"></span><b class="text-dark">설명</b></span>
+                    <h4><b></b></h4>
+                    <p class="ml-4 mr-4">기존 도어락은 외부에 노출이 되기에 누구나 비밀번호를 입력하거나 비밀번호를 촬영할 수 있는데,<br/>
+                        히든락은 내부에 도어락 시스템이 있어 스마트폰 앱을 이용하여 원격으로 도어락을 제어하는 솔루션입니다.</p>
+
+                    <span class="ml-2"><span class="badge-dot badge-success mr-2"></span><b class="text-dark">개발 기간</b></span>
+                    <h4><b></b></h4>
+                    <p class="ml-4">2016년 5월 ~ 2016년 10월</p>
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <span class="ml-2"><span class="badge-dot badge-success mr-2"></span><b class="text-dark">개발 언어</b></span>
+                            <h4><b></b></h4>
+                            <p class="ml-4">Java, Swift, Jsp, jQuery</p>
+                        </div>
+                        <div class="col-md-6">
+                            <span class="ml-2"><span class="badge-dot badge-success mr-2"></span><b class="text-dark">개발 툴</b></span>
+                            <h4><b></b></h4>
+                            <p class="ml-4">Eclipse, XCode, STS (Spring Tool Suite)</p>
+                        </div>
+                    </div>
+                    <p></p>
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <span class="ml-2"><span class="badge-dot badge-success mr-2"></span><b class="text-dark">실행 환경</b></span>
+                            <h4><b></b></h4>
+                            <p class="ml-4">Android, iOS, Chrome</p>
+                        </div>
+                        <div class="col-md-6">
+                            <span class="ml-2"><span class="badge-dot badge-success mr-2"></span><b class="text-dark">서버 환경</b></span>
+                            <h4><b></b></h4>
+                            <p class="ml-4">RASPBIAN JESSIE 4.1, MariaDB</p>
+                        </div>
+                    </div>
+                    <p></p>
+
+                    <span class="ml-2"><span class="badge-dot badge-success mr-2"></span><b class="text-dark">특징</b></span>
+                    <h4><b></b></h4>
+                    <p class="ml-4">raspberry pi gpio - 라즈베리 파이에서 입출력 신호 전달 인터페이스<br/>
+                        Restful API - 도어락 정보 조회, 삽입, 삭제, 원격 도어락 제어<br/>
+                        MyBatis - Spring Framework 데이터베이스 연동<br/>
+                        BootStrap - 관리자 페이지 화면 구성
+                    </p>
+
+                    <!-- Swiper -->
+                    <div class="swiper-container swiper2 border">
+                        <div class="swiper-wrapper">
+                          <div class="swiper-slide">
+                              <a target="_blank" href="../projects/hiddenLock/1.jpg">
+                                  <img src="../projects/hiddenLock/1.jpg" alt="slide" />
+                              </a>
+                          </div>
+                          <div class="swiper-slide">
+                              <a target="_blank" href="../projects/hiddenLock/2.jpg">
+                                  <img src="../projects/hiddenLock/2.jpg" alt="slide" />
+                              </a>
+                          </div>
+                          <div class="swiper-slide">
+                              <a target="_blank" href="../projects/hiddenLock/3.png">
+                                  <img src="../projects/hiddenLock/3.png" alt="slide" />
+                              </a>
+                          </div>
+                          <div class="swiper-slide">
+                              <a target="_blank" href="../projects/hiddenLock/4.png">
+                                  <img src="../projects/hiddenLock/4.png" alt="slide" />
+                              </a>
+                          </div>
+                          <div class="swiper-slide">
+                              <a target="_blank" href="../projects/hiddenLock/5.png">
+                                  <img src="../projects/hiddenLock/5.png" alt="slide" />
+                              </a>
+                          </div>
+                          <div class="swiper-slide">
+                              <a target="_blank" href="../projects/hiddenLock/6.png">
+                                  <img src="../projects/hiddenLock/6.png" alt="slide" />
+                              </a>
+                          </div>
+                          <div class="swiper-slide">
+                              <a target="_blank" href="../projects/hiddenLock/7.png">
+                                  <img src="../projects/hiddenLock/7.png" alt="slide" />
+                              </a>
+                          </div>
+                          <div class="swiper-slide">
+                              <a target="_blank" href="../projects/hiddenLock/8.png">
+                                  <img src="../projects/hiddenLock/8.png" alt="slide" />
+                              </a>
+                          </div>
+                          <div class="swiper-slide">
+                              <a target="_blank" href="../projects/hiddenLock/9.png">
+                                  <img src="../projects/hiddenLock/9.png" alt="slide" />
+                              </a>
+                          </div>
+                          <div class="swiper-slide">
+                              <a target="_blank" href="../projects/hiddenLock/10.png">
+                                  <img src="../projects/hiddenLock/10.png" alt="slide" />
+                              </a>
+                          </div>
+                          <div class="swiper-slide">
+                              <a target="_blank" href="../projects/hiddenLock/11.png">
+                                  <img src="../projects/hiddenLock/11.png" alt="slide" />
+                              </a>
+                          </div>
+                          <div class="swiper-slide">
+                              <a target="_blank" href="../projects/hiddenLock/12.png">
+                                  <img src="../projects/hiddenLock/12.png" alt="slide" />
+                              </a>
+                          </div>
+                          <div class="swiper-slide">
+                              <a target="_blank" href="../projects/hiddenLock/13.png">
+                                  <img src="../projects/hiddenLock/13.png" alt="slide" />
+                              </a>
+                          </div>
+                          <div class="swiper-slide">
+                              <a target="_blank" href="../projects/hiddenLock/14.png">
+                                  <img src="../projects/hiddenLock/14.png" alt="slide" />
+                              </a>
+                          </div>
+                          <div class="swiper-slide">
+                              <a target="_blank" href="../projects/hiddenLock/15.png">
+                                  <img src="../projects/hiddenLock/15.png" alt="slide" />
+                              </a>
+                          </div>
+                          <div class="swiper-slide">
+                              <a target="_blank" href="../projects/hiddenLock/16.png">
+                                  <img src="../projects/hiddenLock/16.png" alt="slide" />
+                              </a>
+                          </div>
+                        </div>
+                        <!-- Add Pagination -->
+                        <div class="swiper-pagination"></div>
+                        <!-- Add Arrows -->
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
     <!-- Optional JavaScript -->
     <script src="../assets/vendor/jquery/jquery-3.3.1.min.js"></script>
     <script src="../assets/vendor/bootstrap/js/bootstrap.bundle.js"></script>
     <script src="../assets/vendor/slimscroll/jquery.slimscroll.js"></script>
     <script src="../assets/libs/js/main-js.js"></script>
     <script src="../assets/vendor/timeline/js/main.js"></script>
+    <script src="../assets/vendor/swiper/js/swiper.min.js"></script>
 
     <script type="text/javascript">
     $(document).ready( function() {
-      $("#top").load("../include/top.html");
-      $("#nav").load("../include/nav.html");
+        $("#top").load("../include/top.html");
+        $("#nav").load("../include/nav.html");
     });
+
+    $(document).ready( function() {
+        $(".modal").on('show.bs.modal', function() {
+            setTimeout(function() {
+                var swiper1 = new Swiper('.swiper1', {
+                    navigation: {
+                        nextEl: '.swiper-button-next',
+                        prevEl: '.swiper-button-prev',
+                    },
+                    pagination: {
+                        el: '.swiper-pagination',
+                    },
+                    slidesPerView: 1,
+                    spaceBetween: 30,
+                    loop: true,
+                });
+
+                var swiper2 = new Swiper('.swiper2', {
+                    navigation: {
+                        nextEl: '.swiper-button-next',
+                        prevEl: '.swiper-button-prev',
+                    },
+                    pagination: {
+                        el: '.swiper-pagination',
+                    },
+                    slidesPerView: 1,
+                    spaceBetween: 30,
+                    loop: true,
+                });
+
+            }, 50);
+        });
+    });
+
+    var imgArray = $.map($("img"), function(el){ return el; });
+    for (var i = 0; i < imgArray.length; i++) {
+        if (imgArray[i].alt=="slide" && imgArray[i].height > 298) {
+            imgArray[i].style.setProperty ("width", "auto");
+            imgArray[i].style.setProperty ("height", "298px");
+        }
+    }
     </script>
 
 </body>

@@ -11,6 +11,7 @@
     <link href="../assets/vendor/fonts/circular-std/style.css" rel="stylesheet">
     <link rel="stylesheet" href="../assets/libs/css/style.css">
     <link rel="stylesheet" href="../assets/vendor/fonts/fontawesome/css/fontawesome-all.css">
+    <link rel="stylesheet" href="../assets/vendor/swiper/css/swiper.min.css">
 </head>
 
 <body>
@@ -111,12 +112,11 @@
                                     <span class="badge badge-success">PHP</span>
                                     <span class="badge badge-light">Windows 7</span>
                                     <span class="badge badge-light">Apache</span>
-                                    <span class="badge badge-light">MySQL</span>
-                                    <span class="badge badge-light">Database 연동</span>
+                                    <span class="badge badge-light">MySQL 연동</span>
                                     <span class="badge badge-light">Xml Parser</span>
                                     <span class="badge badge-light">Android Notification</span>
                                     <p></p>
-                                    <a href="#0" class="btn btn-dark btn-block">자세히 보기</a>
+                                    <a href="#0" class="btn btn-dark btn-block" data-toggle="modal" data-target="#escapeCrisisUsbModal">자세히 보기</a>
                                 </div>
                                 <!-- cd-timeline__content -->
                             </div>
@@ -160,7 +160,7 @@
                                     <span class="badge badge-light">Keyboard Hooking</span>
                                     <span class="badge badge-light">SMTP Mail Server</span>
                                     <p></p>
-                                    <a href="#0" class="btn btn-dark btn-block">자세히 보기</a>
+                                    <a href="#0" class="btn btn-dark btn-block" data-toggle="modal" data-target="#safeNotebookModal">자세히 보기</a>
                                 </div>
                                 <!-- cd-timeline__content -->
                             </div>
@@ -383,18 +383,274 @@
    <!-- ============================================================== -->
     <!-- end main wrapper -->
     <!-- ============================================================== -->
+    <!-- Modal -->
+    <div class="modal fade" id="escapeCrisisUsbModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+
+                <div class="modal-body">
+                    <div class="alert alert-success alert-dismissible fade show" role="alert">
+                        <b>위기탈출 USB 프로그램 & 안드로이드 앱 개발</b>
+                        <a href="#" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </a>
+                    </div>
+
+                    <span class="ml-2"><span class="badge-dot badge-success mr-2"></span><b class="text-dark">설명</b></span>
+                    <h4><b></b></h4>
+                    <p class="ml-4 mr-4">컴퓨터 전공 특성상 USB 사용이 잦은데, 잃어버리면 마땅히 찾을 방법이 없어 분실을 방지해주는 프로그램이 있으면 좋겠다는 생각으로 개발하게 되었습니다.</p>
+
+                    <span class="ml-2"><span class="badge-dot badge-success mr-2"></span><b class="text-dark">개발 기간</b></span>
+                    <h4><b></b></h4>
+                    <p class="ml-4">2014년 3월 ~ 2014년 6월</p>
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <span class="ml-2"><span class="badge-dot badge-success mr-2"></span><b class="text-dark">개발 언어</b></span>
+                            <h4><b></b></h4>
+                            <p class="ml-4">C#, Android, PHP</p>
+                        </div>
+                        <div class="col-md-6">
+                            <span class="ml-2"><span class="badge-dot badge-success mr-2"></span><b class="text-dark">개발 툴</b></span>
+                            <h4><b></b></h4>
+                            <p class="ml-4">Visual Studio 2010, Eclipse, Editplus</p>
+                        </div>
+                    </div>
+                    <p></p>
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <span class="ml-2"><span class="badge-dot badge-success mr-2"></span><b class="text-dark">실행 환경</b></span>
+                            <h4><b></b></h4>
+                            <p class="ml-4">Windows 7, Android</p>
+                        </div>
+                        <div class="col-md-6">
+                            <span class="ml-2"><span class="badge-dot badge-success mr-2"></span><b class="text-dark">서버 환경</b></span>
+                            <h4><b></b></h4>
+                            <p class="ml-4">Windows 7, Apache, MySQL</p>
+                        </div>
+                    </div>
+                    <p></p>
+
+                    <span class="ml-2"><span class="badge-dot badge-success mr-2"></span><b class="text-dark">특징</b></span>
+                    <h4><b></b></h4>
+                    <p class="ml-4">Apache - 웹 서버를 구동시키고 php 페이지 로드<br/>
+                        MySQL 연동 - php 페이지와 데이터베이스 연동 후 조회, 삽입, 삭제 API 생성<br/>
+                        Xml Parser - 조회 응답 데이터 xml로 제공</p>
+
+                    <!-- Swiper -->
+                    <div class="swiper-container swiper1 border">
+                        <div class="swiper-wrapper">
+                          <div class="swiper-slide">
+                              <a target="_blank" href="../projects/escapeCrisisUsb/1.png">
+                                  <img src="../projects/escapeCrisisUsb/1.png" alt="slide" />
+                              </a>
+                          </div>
+                          <div class="swiper-slide">
+                              <a target="_blank" href="../projects/escapeCrisisUsb/2.png">
+                                  <img src="../projects/escapeCrisisUsb/2.png" alt="slide" />
+                              </a>
+                          </div>
+                          <div class="swiper-slide">
+                              <a target="_blank" href="../projects/escapeCrisisUsb/3.png">
+                                  <img src="../projects/escapeCrisisUsb/3.png" alt="slide" />
+                              </a>
+                          </div>
+                        </div>
+                        <!-- Add Pagination -->
+                        <div class="swiper-pagination"></div>
+                        <!-- Add Arrows -->
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="safeNotebookModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+
+                <div class="modal-body">
+                    <div class="alert alert-success alert-dismissible fade show" role="alert">
+                        <b>노트북지킴이 프로그램 & 웹 페이지 개발</b>
+                        <a href="#" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </a>
+                    </div>
+
+                    <span class="ml-2"><span class="badge-dot badge-success mr-2"></span><b class="text-dark">설명</b></span>
+                    <h4><b></b></h4>
+                    <p class="ml-4 mr-4">도서관이나 카페에서 노트북을 잠깐 놓아두고 화장실을 가야 하는 경우, 노트북을 한번 잃어버리면 찾기 힘들다는 점을 고려하여 도난 방지 프로그램을 개발하게 되었습니다.</p>
+
+                    <span class="ml-2"><span class="badge-dot badge-success mr-2"></span><b class="text-dark">개발 기간</b></span>
+                    <h4><b></b></h4>
+                    <p class="ml-4">2014년 7월 ~ 2014년 10월</p>
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <span class="ml-2"><span class="badge-dot badge-success mr-2"></span><b class="text-dark">개발 언어</b></span>
+                            <h4><b></b></h4>
+                            <p class="ml-4">C#, PHP</p>
+                        </div>
+                        <div class="col-md-6">
+                            <span class="ml-2"><span class="badge-dot badge-success mr-2"></span><b class="text-dark">개발 툴</b></span>
+                            <h4><b></b></h4>
+                            <p class="ml-4">Visual Studio 2010, Editplus</p>
+                        </div>
+                    </div>
+                    <p></p>
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <span class="ml-2"><span class="badge-dot badge-success mr-2"></span><b class="text-dark">실행 환경</b></span>
+                            <h4><b></b></h4>
+                            <p class="ml-4">Windows 7</p>
+                        </div>
+                        <div class="col-md-6">
+                            <span class="ml-2"><span class="badge-dot badge-success mr-2"></span><b class="text-dark">서버 환경</b></span>
+                            <h4><b></b></h4>
+                            <p class="ml-4">Windows 7, Apache, MySQL</p>
+                        </div>
+                    </div>
+                    <p></p>
+
+                    <span class="ml-2"><span class="badge-dot badge-success mr-2"></span><b class="text-dark">특징</b></span>
+                    <h4><b></b></h4>
+                    <p class="ml-4">Apache - 웹 서버를 구동시키고 php 페이지 로드<br/>
+                        MySQL 연동 - php 웹 페이지 노트북 정보 조회<br/>
+                        SMTP Mail Server - 메일 서버 연동하여 웹캠 사진 전송<br/>
+                    </p>
+
+                    <!-- Swiper -->
+                    <div class="swiper-container swiper2 border">
+                        <div class="swiper-wrapper">
+                          <div class="swiper-slide">
+                              <a target="_blank" href="../projects/safeNotebook/1.png">
+                                  <img src="../projects/safeNotebook/1.png" alt="slide" />
+                              </a>
+                          </div>
+                          <div class="swiper-slide">
+                              <a target="_blank" href="../projects/safeNotebook/2.png">
+                                  <img src="../projects/safeNotebook/2.png" alt="slide" />
+                              </a>
+                          </div>
+                          <div class="swiper-slide">
+                              <a target="_blank" href="../projects/safeNotebook/3.png">
+                                  <img src="../projects/safeNotebook/3.png" alt="slide" />
+                              </a>
+                          </div>
+                          <div class="swiper-slide">
+                              <a target="_blank" href="../projects/safeNotebook/4.png">
+                                  <img src="../projects/safeNotebook/4.png" alt="slide" />
+                              </a>
+                          </div>
+                          <div class="swiper-slide">
+                              <a target="_blank" href="../projects/safeNotebook/5.png">
+                                  <img src="../projects/safeNotebook/5.png" alt="slide" />
+                              </a>
+                          </div>
+                          <div class="swiper-slide">
+                              <a target="_blank" href="../projects/safeNotebook/6.png">
+                                  <img src="../projects/safeNotebook/6.png" alt="slide" />
+                              </a>
+                          </div>
+                          <div class="swiper-slide">
+                              <a target="_blank" href="../projects/safeNotebook/7.png">
+                                  <img src="../projects/safeNotebook/7.png" alt="slide" />
+                              </a>
+                          </div>
+                          <div class="swiper-slide">
+                              <a target="_blank" href="../projects/safeNotebook/8.png">
+                                  <img src="../projects/safeNotebook/8.png" alt="slide" />
+                              </a>
+                          </div>
+                          <div class="swiper-slide">
+                              <a target="_blank" href="../projects/safeNotebook/9.png">
+                                  <img src="../projects/safeNotebook/9.png" alt="slide" />
+                              </a>
+                          </div>
+                          <div class="swiper-slide">
+                              <a target="_blank" href="../projects/safeNotebook/10.png">
+                                  <img src="../projects/safeNotebook/10.png" alt="slide" />
+                              </a>
+                          </div>
+                          <div class="swiper-slide">
+                              <a target="_blank" href="../projects/safeNotebook/11.png">
+                                  <img src="../projects/safeNotebook/11.png" alt="slide" />
+                              </a>
+                          </div>
+                        </div>
+                        <!-- Add Pagination -->
+                        <div class="swiper-pagination"></div>
+                        <!-- Add Arrows -->
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
     <!-- Optional JavaScript -->
     <script src="../assets/vendor/jquery/jquery-3.3.1.min.js"></script>
     <script src="../assets/vendor/bootstrap/js/bootstrap.bundle.js"></script>
     <script src="../assets/vendor/slimscroll/jquery.slimscroll.js"></script>
     <script src="../assets/libs/js/main-js.js"></script>
     <script src="../assets/vendor/timeline/js/main.js"></script>
+    <script src="../assets/vendor/swiper/js/swiper.min.js"></script>
 
     <script type="text/javascript">
     $(document).ready( function() {
-      $("#top").load("../include/top.html");
-      $("#nav").load("../include/nav.html");
+        $("#top").load("../include/top.html");
+        $("#nav").load("../include/nav.html");
     });
+
+    $(document).ready( function() {
+        $(".modal").on('show.bs.modal', function() {
+            setTimeout(function() {
+                var swiper = new Swiper('.swiper1', {
+                    navigation: {
+                        nextEl: '.swiper-button-next',
+                        prevEl: '.swiper-button-prev',
+                    },
+                    pagination: {
+                        el: '.swiper-pagination',
+                    },
+                    slidesPerView: 1,
+                    spaceBetween: 30,
+                    loop: true,
+                });
+
+                var swiper2 = new Swiper('.swiper2', {
+                    navigation: {
+                        nextEl: '.swiper-button-next',
+                        prevEl: '.swiper-button-prev',
+                    },
+                    pagination: {
+                        el: '.swiper-pagination',
+                    },
+                    slidesPerView: 1,
+                    spaceBetween: 30,
+                    loop: true,
+                });
+            }, 50);
+        });
+    });
+
+    var imgArray = $.map($("img"), function(el){ return el; });
+    for (var i = 0; i < imgArray.length; i++) {
+        if (imgArray[i].alt=="slide" && imgArray[i].height > 298) {
+            imgArray[i].style.setProperty ("width", "auto");
+            imgArray[i].style.setProperty ("height", "298px");
+        }
+    }
+
     </script>
 
 </body>
